@@ -1,0 +1,14 @@
+.container{
+    text-align: center;
+}
+.btn{
+    border: 0.07rem solid black;
+    color: black;
+    background: aqua;
+}
+.btn:hover{
+background-color: red;
+border-color: rgb(94, 231, 231);
+color:red;
+}
+
