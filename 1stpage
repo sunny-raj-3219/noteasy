@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UFT-8">
+        <meta name="viewport"content="width=device-width,
+        initial-scale=1.0">
+        <title>Hower Buttons</title>
+        <link rel="stylesheet" href="button.css">
+</head>
+<body>
+    <div class="container">
+        <a href="indexa.html"> <button class="btn-1">TO-DO LIST</button></a>
+        <a href="index.html"> <button class="btn-2">NOTEASILY</button></a>
+    </div>
+</body>
+</html>
