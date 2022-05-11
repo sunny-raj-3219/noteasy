@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>rajsunny</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/shoelace-css/1.0.0-beta16/shoelace.css">
+        <link rel="stylesheet" href="styles.css">
+        
+ 
+        
+    </head>
+    
+    <body>
+        <div class="container">
+ 
+            
+            
+            <div class="app">
+                <br>
+                <h1>NOTEASILY</h1>
+
+                <br> 
+                
+                <div class="input-single">
+                    <textarea id="note-textarea" placeholder="Create a new note by typing or using voice recognition." rows="6"></textarea>
+                </div>        
+                <button class="btn" id="start-record-btn" title="Start Recording">Start Recognition</button>
+                <button class="btn" id="pause-record-btn" title="Pause Recording">Pause Recognition</button>
+                <button class="btn" id="save-note-btn" title="Save Note">Save Note</button>  
+                <p id="recording-instructions">Press the <strong>Start Recognition</strong> button and allow access.</p>
+                
+                <br>
+                <br>
+                
+                <h6>My Saved Notes</h6>
+                <ul id="notes">
+                    <li>
+                        <p class="no-notes">You don't have any notes.</p>
+                    </li>
+                </ul>
+ 
+            </div>
+ 
+        </div>
+ 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="script.js"></script>
+ 
+        
+ 
+    </body>
+</html>
